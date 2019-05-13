@@ -1,0 +1,23 @@
+%YAML:1.0
+# data
+# the dataset directory, change it to yours! 
+#dataset_dir: /home/wen/dataset/1/03
+
+# camera intrinsics
+Camera.fx: 721.5377
+Camera.fy: 721.5377
+Camera.cx: 609.5593
+Camera.cy: 172.854
+
+Camera.mbf: 387.5744
+# VO paras
+ORBextractor.nFeatures: 2000
+ORBextractor.scaleFactor: 1.2
+ORBextractor.nLevels: 8
+ORBextractor.iniThFAST: 20
+ORBextractor.minThFAST: 7
+match_ratio: 2.0
+max_num_lost: 10
+min_inliers: 10
+keyframe_rotation: 0.1
+keyframe_translation: 0.1
