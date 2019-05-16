@@ -20,7 +20,7 @@ make
 
 调用时使用控制台，本程序的demo针对kitti数据集的序列三 在控制台中使用如下方法调用：
 
-进入VO_g2o主目录：cd VO1
+进入VO1主目录：cd VO1
 
 启动程序：./bin/run_vo config/default.yaml /home/wen/dataset/1/03
 
